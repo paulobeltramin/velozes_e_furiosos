@@ -1,0 +1,27 @@
+
+
+.header{
+
+    background-image: url(/dist/images/velozes_e_furiosos.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+
+
+    &__content{
+         text-align: center; 
+         background-color:rgba(0,0,0,0.4);
+         height: 100%;
+
+        h1{
+           color: white;
+           padding-top: 48px;
+        }
+
+        h2{
+            padding-top: 24px;
+            color: white;
+        }
+    }
+    
+}
